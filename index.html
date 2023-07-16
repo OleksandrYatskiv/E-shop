@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>E shop</title>
+</head> 
+
+<body>
+    
+    <div class="wrapper">
+        <aside>
+            <button class="my-orders-button">My orders</button>
+
+            <div id="computers" class="categories">Notebooks and computers</div>
+            <div id="phones" class="categories">Smartphones and Tv's</div>
+            <div id="gamerProducts" class="categories">Products for gamers</div>
+            <div id="appliances" class="categories">Appliances</div>
+            <div id="homeProducts" class="categories">Products for home</div>
+        </aside>
+
+        <main class="products"></main>
+
+        <div class="info-container"></div>
+    </div>
+
+    <div class="modal-wrapp d-none" id="modal-wrapp">
+        <div class="modal">
+            <input type="text" id="fullName" placeholder="Full Name" required>
+
+            <label for="cities">Choose your city:</label>
+            <select name="cities" id="cities" required>
+                <option value="" disabled selected hidden></option>
+                <option value="Kyiv">Kyiv</option>
+                <option value="Odesa">Odesa</option>
+                <option value="Lviv">Lviv</option>
+                <option value="Kharkiv">Kharkiv</option>
+            </select>
+
+            <input type="text" id="postOffice" placeholder="Post office" required>
+
+            <label for="payment">Choose payment method:</label>
+            <select name="Payment" id="payment" required>
+                <option value="" disabled selected hidden></option>
+                <option value="Card">Card</option>
+                <option value="Upon receipt">Upon receipt</option>
+            </select>
+
+            <input type="number" id="amount" min="1" max="100" step="1" placeholder="Enter amount" required>
+
+            <textarea id="comment" placeholder="Add your comment: (optional)" name="comment" rows="4" cols="50"></textarea>
+
+            <button id="modal-buton">Submit</button>
+            <button id="modal-cancel">Cancel</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
