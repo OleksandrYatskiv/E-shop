@@ -194,7 +194,7 @@ button {
     background-color: #3e8e41;
 }
 
-.no-products-wrapper{
+.no-products-wrapper {
     border: 3px solid #1090e6;
     border-radius: 20px;
     width: 600px;
@@ -203,10 +203,6 @@ button {
     margin: 50px auto;
     position: relative;
 }
-
-/* .no-products{
-    text-align: center;
-} */
 
 #back-btn:hover {
     background-color: #45a049;
@@ -219,33 +215,32 @@ button {
     bottom: 20px;
 }
 
-#back-img{
+#back-img {
     position: absolute;
     left: 200px;
     width: 50px;
 }
 
-#back-img:hover{
+#back-img:hover {
     cursor: pointer;
 }
 
-.more-link{
+.more-link {
     font-size: large;
     color: #1090e6;
     text-decoration: underline;
 }
 
-.more-link:hover{
+.more-link:hover {
     cursor: pointer;
 }
 
 .error {
     border: 1px solid red !important;
-  }
-  
-  .error-message {
+}
+
+.error-message {
     color: red;
     font-size: 14px;
     margin-top: 5px;
-  }
-  
+}
